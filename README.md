@@ -1,0 +1,1 @@
+This example demonstrates a common error in Dapps when interacting with MetaMask:  failure to handle the scenario where a user rejects the connection request. The provided code only logs a message if MetaMask is not installed; it does not gracefully handle rejection of the connection request, potentially leading to a broken user experience or unexpected application behavior.
